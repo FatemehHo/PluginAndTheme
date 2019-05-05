@@ -1,0 +1,124 @@
+body, a, h1, p {
+    font-family: 'Raleway', sans-serif;
+}
+
+div a, h1 {
+    color: #CC4B00;
+    text-transform: capitalize;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: 0;
+}
+
+.row {
+    padding: 20px;
+    margin: 0;
+}
+
+.container .row div:nth-child(2) {
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #004EAE;
+    border-radius: 0;
+    font-size: 18px;
+}
+
+.navbar a {
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.navbar a:hover {
+    color: #FFC700;
+}
+
+.container .navbar:first-of-type {
+    padding: 0 20px;
+}
+
+.container .navbar:nth-child(2) a:first-of-type {
+    padding-left: 20px;
+}
+
+header div nav:first-of-type {
+    background-color: #006EF5;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.header > .row {
+    padding: 0;
+}
+
+/* Burger img */
+#Layer_1 {
+    margin-left: 2.5em;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+/* Eats. */
+a.hidden-xs {
+    position: relative;
+    bottom: 4px;
+    left: 10px;
+}
+
+/* NAV */
+#navContent > a:nth-child(1) {
+    margin-left: 2em;
+}
+
+
+@media screen and (max-width: 767px) {
+    #btn {
+        width: 50%;
+        float: left;
+        position: relative;
+        right: 15%;
+        top: 12px;
+    }
+
+    .bg-light.d-flex > a:nth-child(2) {
+        position: relative;
+        top: 5px;
+        right: 15%;
+    }
+
+    #navContent > a {
+        width: 100%;
+        border-bottom: 1px solid lightgray;
+    }
+
+    #navContent > a:nth-child(1) {
+        margin: 0;
+    }
+
+    #navContent > a {
+        padding-left: 2em;
+    }
+
+    p.text-muted {
+        margin-top: 1em;
+    }
+}
+
+/* Mine */
+#navContent a {
+    text-decoration: underline;
+}
+
+a[aria-current] {
+    background-color: #013371;
+    color: #FFC700;
+}
+
+a.read-more {
+    display: inline-flex;
+}
